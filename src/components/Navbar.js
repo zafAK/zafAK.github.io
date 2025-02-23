@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineUser,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -73,15 +72,6 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
-            {/* <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/zafAK/Portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-              </Button>
-            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
