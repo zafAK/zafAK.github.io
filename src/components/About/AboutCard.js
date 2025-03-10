@@ -13,8 +13,10 @@ function AboutCard() {
             I am currently employed as a software developer at Wabtec.
             <br />
             I have an undergraduate degree in Computer Science and Engineering from the University of Iowa and 
-            a Master's degree in Software Engineering from Pennsylvania State Univesity. Fun fact, this website was
-            built using React.js and Bootstrap.
+            a Master's degree in Software Engineering from Pennsylvania State Univesity. 
+            <br />
+            <br />
+            Fun fact, this website was built using <span className="beige">React.js </span> and <span className="beige">Bootstrap. </span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
