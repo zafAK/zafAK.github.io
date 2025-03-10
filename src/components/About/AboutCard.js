@@ -8,12 +8,13 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Zafar Khan </span>
+            Hi everyone, I am <span className="beige">Zafar Khan </span>
             <br />
             I am currently employed as a software developer at Wabtec.
             <br />
             I have an undergraduate degree in Computer Science and Engineering from the University of Iowa and 
-            a Master's degree in Software Engineering from Pennsylvania State Univesity.
+            a Master's degree in Software Engineering from Pennsylvania State Univesity. Fun fact, this website was
+            built using React.js and Bootstrap.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
