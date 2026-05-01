@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi everyone, I am <span className="beige">Zafar Khan </span>
             <br />
-            I am currently employed as a software developer at Wabtec.
+            I am currently employed as a software developer at CBOE.
             <br />
             I have an undergraduate degree in Computer Science and Engineering from the University of Iowa and 
             a Master's degree in Software Engineering from Pennsylvania State Univesity. 
