@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import CubeCard from "../Projects/3DRender";
 import Particle from "../Particle";
 import CBOWLosses from "../../Assets/Projects/output.png";
+import TradeTracker from "../../Assets/Projects/tradetracker.png";
 
 function Projects() {
   return (
@@ -17,6 +18,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={6} className="project-card">
+            <ProjectCard
+              imgPath={TradeTracker}
+              title="Congressional Stock Trade Tracker"
+              description="Under the STOCK Act, members of Congress must publicly disclose their stock trades — but those disclosures land as scattered, inconsistent filings that are difficult to actually reason about.
+              This project ingests them, normalizes the results into a clean relational database, and exposes that data through both a REST API and a React dashboard for browsing and filtering by politician, ticker, and trade type.
+
+              The standout feature is the AI agent layered on top. Rather than generating answers from its own parameters, the agent responds to natural-language questions strictly by issuing real queries against the database through tool calls, so every claim it makes is grounded in a row that actually exists. Asking whether a given member is bullish on tech, for example, returns an answer assembled from their actual disclosed trades — with the underlying tool calls exposed — which sidesteps the hallucination problem that makes most LLM interfaces to real data untrustworthy."
+              ghLink="https://github.com/zafAK/politician-trade-tracker"
+            />
+          </Col>
+
           <Col md={6} className="project-card">
             <CubeCard
               title="Matrix computations for 3D Representations"
